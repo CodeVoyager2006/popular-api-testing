@@ -1,0 +1,30 @@
+/* Share-Button.css */
+
+button {
+  cursor: pointer;
+}
+
+/* If you want the Share button styled specifically (recommended) */
+button[type="button"] {
+  padding: 10px 14px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+  background: #ffffff;
+  font-weight: 600;
+  line-height: 1;
+  transition: transform 0.05s ease, background 0.15s ease, border-color 0.15s ease;
+}
+
+button[type="button"]:hover {
+  background: #f7f7f7;
+  border-color: #bdbdbd;
+}
+
+button[type="button"]:active {
+  transform: translateY(1px);
+}
+
+button[type="button"]:focus-visible {
+  outline: 3px solid rgba(0, 120, 255, 0.35);
+  outline-offset: 2px;
+}
